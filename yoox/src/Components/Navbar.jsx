@@ -36,7 +36,7 @@ const Navbar = () => {
         <Button  border={"none"}>China</Button>
         <Button  border={"none"}>Usa</Button>
         <Button  border={"none"}>UK</Button>
-        <Button   border={"none"}>Canada</Button>
+        <Button  border={"none"}>Canada</Button>
         <Button  border={"none"}></Button>
         <Button  border={"none"}></Button>
         <Button  border={"none"}></Button>
