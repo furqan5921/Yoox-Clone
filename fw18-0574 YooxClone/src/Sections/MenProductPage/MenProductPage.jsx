@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text ,Image} from "@chakra-ui/react";
 import ThreePic from "../../Components/ProductPageComps/ThreePic";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -70,7 +70,11 @@ export default function MenProductPage(){
     
     return(
             <Box  backgroundColor="#f6f6f6" >
+                <Box>
+                    <Image w={"100%"} src={"https://www.yoox.com/images/yoox80/banners/6824_14_OurChoices_M_Main.jpg?634485886601286852#width=1380&height=637"}/>
+                </Box>
                 <Navbar/>
+                
                 <ThreePic src="https://www.yoox.com/images/yoox80/banners/6830_1_HL_DM_US.png?634485886869569819#width=430&height=600" 
                  src2="https://www.yoox.com/images/yoox80/banners/5460_1_TheGivingMovement_HL_M.jpg?634485886869569819#width=430&height=600"/>
         <Flex alignItems="center" > 

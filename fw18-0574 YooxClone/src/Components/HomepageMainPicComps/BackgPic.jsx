@@ -1,20 +1,18 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Button } from "react-bootstrap";
 import "./BackgPic.css"
 
 export default function BackgPic(){
 
     return(
     <Box className="MainPic">
-        <Image src="https://www.yoox.com/images/yoox80/banners/6824_1_TrendGardenParty_MAIN_WM.jpg?634485886869569819&impolicy=cropDefault&width=960&height=510" position="relative" width="90%"/>
+        <Image src="https://www.yoox.com/images/yoox80/banners/6824_14_OurChoices_W_Main.jpg?634485886601286852#width=1380&height=637" position="relative" width="90%"/>
         <Box className="text">
             <Flex direction="column" >
-            <Text fontSize="2xl"><b>GARDEN OF DREAMS</b></Text>
-            <h2>A magical midsummer night</h2>
+            <Text fontSize="2xl"><b>THE NEW STYLE GALLERY</b></Text>
+            <h2>Outfit ideas from our stylists</h2>
             </Flex>
-            <Flex className="BorderdT">
-                <Text  display="inline-block" borderBottom="2px" width="50%" ><b>DISCOVER THE TREND</b></Text>
-                <Text  display="inline-block" borderBottom="2px" width="35%"><b>SHOP NOW</b></Text>
-            </Flex>
+           <Button>Shop Now</Button>
         </Box>    
     </Box>
     )
